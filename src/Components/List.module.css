@@ -1,0 +1,15 @@
+.deleteBtn{
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s!important ;
+    position: absolute;
+    right: -50px;
+}
+.parent:hover .deleteBtn{
+    opacity: 1;
+    visibility: visible;
+}
+.parent{
+    transition: all .5s ;
+    position: relative;
+}
